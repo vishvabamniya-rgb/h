@@ -7,4 +7,4 @@ PORT="${PORT:-10000}"
 python -m http.server "$PORT" --bind 0.0.0.0 >/dev/null 2>&1 &
 
 # Telegram bot (polling)
-exec python main.py
+exec python bot.py
