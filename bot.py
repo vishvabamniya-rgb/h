@@ -239,10 +239,8 @@ async def pick_course(update: Update, context: ContextTypes.DEFAULT_TYPE):
         document=bio,
         filename=fname,
         caption=(
-            f"✅ Scrape Complete\n"
-            f"Batch: {batch_title}\n\n"
-            f"📹 Total Videos: {total_videos}\n"
-            f"📄 Total PDFs: {total_pdfs}"
+            f"✅ Scrape Complete\n\n"
+            f"Batch: {batch_title}"
         )
     )
 
@@ -267,3 +265,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
